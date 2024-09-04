@@ -1,0 +1,143 @@
+/* Client.css */
+
+.client-list {
+  width: 100%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.client-list h2 {
+  color: #3d3d3d;
+  font-family: Manrope, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.client-list-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+  color: #1e1e1e;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.client-list-content {
+  margin-top: 20px;
+}
+
+.client-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex: 1.5;
+}
+
+.client-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.client-name {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.client-company {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 600;
+  color: #8a8a8a;
+}
+
+.client-email {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 600;
+  flex: 1.4;
+  text-align: left;
+  color: #5d5d5d;
+}
+
+.client-status {
+  display: flex;
+  align-items: center;
+  flex: 1.5;
+  justify-content: start;
+}
+
+.client-status select {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.client-status.active select {
+  border-color: #00882e;
+  color: #00882e;
+}
+
+.client-status.inactive select {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.client-action {
+  flex: 0.5;
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 0;
+  color: #6c757d;
+}
+
+.client-action::before {
+  content: "\2022\2022\2022";
+  display: block;
+  transform: rotate(90deg);
+}
+
+/* Styles for dot inside select options */
+.status-option {
+  display: flex;
+  align-items: center;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.status-dot {
+  background-color: #00882e;
+}
+
+.status-dot {
+  background-color: #dc3545;
+}

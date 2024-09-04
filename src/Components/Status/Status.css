@@ -1,0 +1,177 @@
+.status-cards-div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.employment-status,.team-status,.upcoming-leave{
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.employment-status h5 ,.team-status h5,.upcoming-leave h5 {
+  color: #3d3d3d;
+  font-family: Manrope, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.success-line {
+  display: flex;
+  margin-top: 30px;
+}
+.blueline,
+.orangeline,
+.greenline {
+  height: 8px;
+  flex: 1;
+  border-radius: 20px;
+}
+.blueline {
+  background-color: blue;
+}
+.orangeline {
+  background-color: orangered;
+  margin-left: -5px;
+}
+.greenline {
+  background-color: #1abc9c;
+  margin-left: -5px;
+}
+.success-line-percent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.blueline-percent,
+.orangeline-percent,
+.greenline-percent {
+  text-align: center;
+  width: 100%;
+}
+.blueline-percent p,
+.orangeline-percent p,
+.greenline-percent p {
+  margin: 0;
+  color: #5d5d5d;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+}
+.total-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  border-top: 0.5px solid #bababa;
+}
+.total-number h4 {
+  margin-top: 10px;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #292929;
+}
+.status-content {
+    display: flex;
+    align-items: center;
+    border: 1px solid #CECECE;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 10px; /* Adds spacing between items */
+    margin-top: 20px;
+  }
+  
+  .status-content div {
+    width: 13px; /* Size of the mini circle */
+    height: 13px;
+    border-radius: 50%;
+    margin-right: 10px; /* Space between circle and text */
+  }
+  
+  .light-bluecircle div{
+    background-color: blue;
+  }
+  
+  .orangecircle div{
+    background-color: orangered;
+  }
+  
+  .greencircle div{
+    background-color: #1abc9c;
+  }
+  
+  .status-content p {
+    margin: 0;
+    flex: 1; /* Allows text to take available space */
+  }
+  
+  .status-content h6 {
+    margin: 0;
+    border-right: 1px solid #CECECE; /* Adds border to the right */
+    padding-right: 10px; /* Space between number and border */
+    margin-right: 10px; /* Space between number and text */
+  }
+  
+  .status-content h5 {
+    margin: 0;
+    color: #3d3d3d;
+    font-size: 15px;
+  }
+  .team-tab {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    border: 1px solid #ECECEC;
+    background-color: #F4F4F4;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  .team-tab button {
+    background-color: #FFFFFF;
+    padding: 5px 0px;
+    border-radius: 10px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    color: #5D5D5D;
+    width: 100%; /* Makes the button take full width */
+  }
+.team-absent-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 10px;
+}  
+.image-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    gap: 15px; 
+}
+.image-name img{
+    width: 50px;
+    height: 50px;
+}
+.name-details h6,.date-year h6{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    color: #5D5D5D;
+}
+.name-details p,.date-year p{
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 600;
+    color: #9E9E9E;
+}
+.date-year p{
+    text-align: right;
+}

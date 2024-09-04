@@ -1,0 +1,188 @@
+.dashboard-home-page-content {
+  background-color: #ffffff;
+}
+.dashboard-main-content-start {
+  display: flex;
+}
+.dashboard-left-side-div {
+  width: 20%;
+  height: auto;
+}
+.logo-arrowbutton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15%;
+}
+.logo-arrowbutton button {
+  background-color: #ececec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #9f9f9f;
+}
+.dropdown-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fdba12;
+  padding: 10px 20px;
+}
+.dropdown-menu svg {
+  font-size: 25px;
+}
+.dropdown-menu p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.dashboard-dropdown-menu {
+  padding-top: 30px;
+  padding-left: 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.dropdown-menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 18px; */
+  padding-left: 20px;
+  margin-top: 10px;
+  color: #747474;
+}
+.dropdown-menu-list svg {
+  font-size: 25px;
+}
+.dropdown-menu-list p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.list-of-dropdown-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #747474;
+}
+/* right div */
+.dashboard-right-side-div {
+  width: 80%;
+  height: auto;
+  padding-top: 1%;
+}
+.navbar-of-dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 2%;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #e2e0e0;
+  padding: 6px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 100px;
+}
+.search-bar input {
+  background-color: #f4f4f4;
+}
+.search-bar input::placeholder {
+  color: #9f9f9f;
+  font-size: 15px;
+  font-weight: 600;
+}
+.search-bar svg {
+  color: #9f9f9f;
+  font-weight: bold;
+  font-size: 20px;
+}
+.notification-profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.notification-profile img {
+  width: 30px;
+  height: auto;
+  background-color: #f1f1f1;
+  padding: 6px;
+  border-radius: 5px;
+}
+.notification-profile svg {
+  background-color: #f1f1f1;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+.notification-profile p {
+  color: #212c2d;
+  font-size: 16px;
+  border-right: 1px solid #aeb2b2;
+  padding-right: 10px;
+}
+.navbar-logo-image img {
+  background-color: transparent;
+  width: 45 px;
+  padding: 0px;
+  height: auto;
+}
+/* main components style */
+.main-components-of-dashboard {
+  background-color: #f4f4f4;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 2%;
+  margin-top: 15px;
+}
+.heading-of-dashboard h4 {
+  font-family: Manrope;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 41.6px;
+  text-align: left;
+  color: #3D3D3D;
+}
+.heading-of-dashboard h4 span {
+    color: black;
+ }
+ .heading-of-dashboard p{
+    color: #545454;
+    font-size: 16px;
+ }
+ /* cards */
+ .cards-of-dashboard{
+    margin-top: 30px;
+    width: 90%;
+ }
+ /* Graphe component */
+ .total-expenses {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.graphe-one-div {
+    flex-grow: 4; /* 60% of the width */
+}
+.graphe-two-div {
+    flex-grow: 4; /* 40% of the width */
+}
+/* status style */
+.employment-status-all-cards{
+  margin-top: 20px;
+}
+/* live chat and client div */
+.client-live-chat-div{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  height: 100%;
+  gap: 15px;
+}
